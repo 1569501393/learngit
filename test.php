@@ -1,0 +1,19 @@
+<?php
+// phpinfo();
+
+echo true;
+
+
+$charge_cash = mt_rand(1, 3); // ²âÊÔÓÃ
+var_dump($charge_cash);
+
+$charge_cash = intval ( $charge_cash * 10 );
+var_dump($charge_cash);
+
+	if ('00'==='00') {
+				var_dump("³É¹¦");
+			} else {
+
+				var_dump("Ê§°Ü");
+			}
+?>
